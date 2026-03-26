@@ -1,0 +1,11 @@
+{
+  "project": {
+    "name": "ai-typescript-starter"
+  },
+  "commands": {
+    "/build": "构建项目",
+    "/test": "运行测试",
+    "/lint": "代码检查",
+    "/release": "创建发布"
+  }
+}

@@ -137,3 +137,19 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# pnpm
+.pnpm-store
+
+# Biome
+.biome
+
+# Test coverage
+coverage
+
+# Build output
+dist
+
+# OS files
+.DS_Store
+Thumbs.db
