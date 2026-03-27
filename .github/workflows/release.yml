@@ -1,4 +1,4 @@
-name: Release
+name: 发布
 
 on:
   release:
@@ -12,28 +12,28 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout repository
+      - name: 检出代码仓库
         uses: actions/checkout@v6
 
-      - name: Setup pnpm
+      - name: 设置 pnpm
         uses: pnpm/action-setup@v5
         with:
           version: 10
 
-      - name: Setup Node.js
+      - name: 设置 Node.js
         uses: actions/setup-node@v6
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
           cache: 'pnpm'
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
-      - name: Build
+      - name: 构建
         run: pnpm run build
 
-      - name: Publish to npm
+      - name: 发布到 npm
         run: pnpm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
