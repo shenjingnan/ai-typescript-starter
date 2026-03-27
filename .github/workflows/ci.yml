@@ -1,4 +1,4 @@
-name: CI
+name: 持续集成
 
 on:
   push:
@@ -14,40 +14,40 @@ jobs:
         node-version: [20, 22]
 
     steps:
-      - name: Checkout repository
+      - name: 检出代码仓库
         uses: actions/checkout@v6
 
-      - name: Setup pnpm
+      - name: 设置 pnpm
         uses: pnpm/action-setup@v5
         with:
           version: 10.30.3
 
-      - name: Setup Node.js ${{ matrix.node-version }}
+      - name: 设置 Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
-      - name: Type check
+      - name: 类型检查
         run: pnpm run typecheck
 
-      - name: Lint
+      - name: 代码检查
         run: pnpm run lint
 
-      - name: Build
+      - name: 构建
         run: pnpm run build
 
-      - name: Test
+      - name: 测试
         run: pnpm run test
 
-      - name: Coverage
+      - name: 覆盖率报告
         run: pnpm run test:coverage
         if: matrix.node-version == 20
 
-      - name: Upload coverage to Codecov
+      - name: 上传覆盖率到 Codecov
         uses: codecov/codecov-action@v6
         if: matrix.node-version == 20
         with:
