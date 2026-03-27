@@ -1,40 +1,40 @@
 ---
-name: Bug Report
-about: Report a bug to help us improve
+name: Bug 报告
+about: 报告 Bug 帮助我们改进
 title: '[Bug] '
 labels: bug
 assignees: ''
 ---
 
-## Bug Description
+## Bug 描述
 
-A clear and concise description of what the bug is.
+请清晰简洁地描述这个 Bug。
 
-## Steps to Reproduce
+## 复现步骤
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. 进入 '...'
+2. 点击 '....'
+3. 滚动到 '....'
+4. 看到错误
 
-## Expected Behavior
+## 期望行为
 
-A clear and concise description of what you expected to happen.
+请清晰简洁地描述你期望发生的情况。
 
-## Actual Behavior
+## 实际行为
 
-A clear and concise description of what actually happened.
+请清晰简洁地描述实际发生的情况。
 
-## Environment
+## 环境信息
 
-- OS: [e.g. macOS, Windows, Linux]
-- Node.js version: [e.g. 20.10.0]
-- Package version: [e.g. 0.1.0]
+- 操作系统: [例如: macOS, Windows, Linux]
+- Node.js 版本: [例如: 20.10.0]
+- 包版本: [例如: 0.1.0]
 
-## Additional Context
+## 额外信息
 
-Add any other context about the problem here.
+在此添加关于问题的其他背景信息。
 
-## Possible Solution
+## 可能的解决方案
 
-If you have suggestions on how to fix the bug, please describe them here.
+如果你有修复这个 Bug 的建议，请在此描述。
