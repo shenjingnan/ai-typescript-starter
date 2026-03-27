@@ -1,0 +1,14 @@
+{
+  "project": {
+    "name": "ai-typescript-starter",
+    "description": "AI 原生的 TypeScript 启动模板",
+    "techStack": ["TypeScript", "Node.js", "Vitest", "Biome", "tsup"],
+    "packageManager": "pnpm"
+  },
+  "tools": {
+    "build": "pnpm run build",
+    "test": "pnpm run test",
+    "lint": "pnpm run lint",
+    "typecheck": "pnpm run typecheck"
+  }
+}
