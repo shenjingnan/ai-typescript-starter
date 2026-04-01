@@ -16,7 +16,8 @@
     "conventionalcommits",
     "autorelease",
     "dependabot",
-    "shenjingnan"
+    "shenjingnan",
+    "rankdir"
   ],
   "ignorePaths": [
     "node_modules",
