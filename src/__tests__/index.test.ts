@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { createConfig, greet } from '../index';
+import { createConfig, greet, VERSION } from '../index';
 
 describe('greet', () => {
   it('should return greeting message with the given name', () => {
@@ -56,5 +56,15 @@ describe('createConfig', () => {
     // 这里验证 TypeScript 类型系统正确标记了 readonly
     expect(config.debug).toBe(false);
     expect(config.logLevel).toBe('info');
+  });
+});
+
+describe('VERSION', () => {
+  it('should be a string', () => {
+    expect(typeof VERSION).toBe('string');
+  });
+
+  it('should match semver format', () => {
+    expect(VERSION).toMatch(/^\d+\.\d+\.\d+/);
   });
 });
