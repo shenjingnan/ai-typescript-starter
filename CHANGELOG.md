@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.3.0-beta.0](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.2.0...v0.3.0-beta.0) (2026-04-03)
+
+### Features
+
+* **skills:** 添加 Git 冲突解决技能 ([#20](https://github.com/shenjingnan/ai-typescript-starter/issues/20)) ([a024c42](https://github.com/shenjingnan/ai-typescript-starter/commit/a024c42eb00c0ea240189218aa40490fd90e0579))
+
+### Bug Fixes
+
+* **ci:** 将 GitHub Actions 工作流名称还原为英文并修复文件末尾换行 ([#19](https://github.com/shenjingnan/ai-typescript-starter/issues/19)) ([3b55b47](https://github.com/shenjingnan/ai-typescript-starter/commit/3b55b47df6d38889a87a1aec1e9ae92ad1e921c4))
+* 清理 husky pre-commit hook 中的废弃代码 ([#23](https://github.com/shenjingnan/ai-typescript-starter/issues/23)) ([05c7d30](https://github.com/shenjingnan/ai-typescript-starter/commit/05c7d306707d8d74f15c7ef796811e1d8d201c53))
+
+### Code Refactoring
+
+* 整合 AI 配置，统一使用 AGENTS.md ([#22](https://github.com/shenjingnan/ai-typescript-starter/issues/22)) ([b5ea5de](https://github.com/shenjingnan/ai-typescript-starter/commit/b5ea5dea5cafa28718d95e01e1112c7e28a77bb9))
+
 ## 0.2.0 (2026-03-29)
 
 ### Features
