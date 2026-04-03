@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.0-beta.1](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.3.0-beta.0...v0.3.0-beta.1) (2026-04-03)
+
+### Bug Fixes
+
+* **ci:** 修复发布工作流中的拼写错误 ([#26](https://github.com/shenjingnan/ai-typescript-starter/issues/26)) ([5c12f0d](https://github.com/shenjingnan/ai-typescript-starter/commit/5c12f0dcdee6e292b1bd538d0475894198be2325))
+
 ## [0.3.0-beta.0](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.2.0...v0.3.0-beta.0) (2026-04-03)
 
 ### Features
