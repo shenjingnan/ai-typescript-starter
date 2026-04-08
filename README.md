@@ -8,7 +8,7 @@ AI 原生的 TypeScript 启动模板，专为 AI 辅助开发时代打造。
 
 ## 特性
 
-- **现代技术栈**: TypeScript 5.x + Node.js 24+ + pnpm
+- **现代技术栈**: TypeScript + Node.js 24+ + pnpm
 - **构建工具**: tsdown - 基于 rolldown 的 TypeScript 打包器
 - **测试框架**: Vitest - Vite 原生测试框架
 - **代码质量**: Biome (Lint + Format) + cspell (拼写检查)
@@ -69,6 +69,7 @@ ai-typescript-starter/
 ├── examples/             # 示例代码
 ├── src/                  # 源代码
 │   └── __tests__/        # 测试文件
+├── AGENTS.md             # AI Agent 配置
 └── dist/                 # 构建产物
 ```
 
@@ -89,6 +90,11 @@ ai-typescript-starter/
 | `pnpm run check:fix` | 检查并修复 |
 | `pnpm run spellcheck` | 拼写检查 |
 | `pnpm run release` | 创建发布 |
+| `pnpm run release:beta` | 发布 beta 预发布版本 |
+| `pnpm run release:dry` | 发布干运行 (不实际发布) |
+| `pnpm run release:patch` | 直接发布 patch 版本 |
+| `pnpm run release:minor` | 直接发布 minor 版本 |
+| `pnpm run release:major` | 直接发布 major 版本 |
 
 ## AI 辅助开发
 
@@ -100,8 +106,8 @@ ai-typescript-starter/
 
 ### .claude/ 目录
 
-- `commands/` - 自定义 Slash 命令 (`/build`, `/test`, `/lint`, `/release`)
-- `skills/` - 项目技能定义
+- `commands/` - 自定义 Slash 命令 (`/build`, `/test`, `/lint`, `/typecheck`, `/spellcheck`, `/release`, `/commit-push-pr`)
+- `skills/` - 项目技能定义 (`resolve-git-conflicts`, `fix-audit`, `project-context`, `update-readme`)
 
 ## 代码风格
 
