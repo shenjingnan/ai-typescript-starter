@@ -32,6 +32,5 @@ description: 根据项目当前状态更新根目录 README.md
 
 ## 注意事项
 
-- 这是一个模板项目，README 内容应保持通用性
-- 不要添加与模板项目无关的具体业务描述
+- 不要添加与项目无关的具体业务描述
 - 徽章（badges）中的仓库地址保持占位符形式（如 `your-username/your-project`）
