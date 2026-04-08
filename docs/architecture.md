@@ -13,7 +13,7 @@ graph TB
     end
 
     subgraph Build["构建流程"]
-        tsup["tsup"]
+        tsdown["tsdown"]
         dist["dist/<br/>构建产物"]
     end
 
@@ -29,9 +29,9 @@ graph TB
         release["release-it"]
     end
 
-    index --> tsup
-    modules --> tsup
-    tsup --> dist
+    index --> tsdown
+    modules --> tsdown
+    tsdown --> dist
 
     index --> biome
     modules --> biome
@@ -42,7 +42,7 @@ graph TB
     actions --> biome
     actions --> typescript
     actions --> vitest
-    actions --> tsup
+    actions --> tsdown
 ```
 
 ## 目录结构
@@ -76,10 +76,10 @@ ai-typescript-starter/
 
 ## 技术决策
 
-### 为什么选择 tsup？
+### 为什么选择 tsdown？
 
 - **零配置**: 开箱即用，无需复杂配置
-- **快速**: 基于 esbuild，构建速度极快
+- **快速**: 基于 rolldown，构建速度极快
 - **ESM 优先**: 原生支持 ESM 格式
 - **类型声明**: 自动生成 .d.ts 文件
 
@@ -108,13 +108,13 @@ ai-typescript-starter/
 
 ```mermaid
 flowchart LR
-    A[TypeScript 源码] --> B[tsup]
+    A[TypeScript 源码] --> B[tsdown]
     B --> C[ESM 模块]
     B --> D[类型声明]
     B --> E[Source Map]
-    C --> F[dist/index.js]
-    D --> G[dist/index.d.ts]
-    E --> H[dist/index.js.map]
+    C --> F[dist/index.mjs]
+    D --> G[dist/index.d.mts]
+    E --> H[dist/index.mjs.map]
 ```
 
 ## 测试策略

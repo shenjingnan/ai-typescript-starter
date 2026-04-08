@@ -10,7 +10,7 @@
 
 ## 构建配置
 
-- 构建工具: tsup
+- 构建工具: tsdown
 - 输出格式: ESM
 - 类型声明: 自动生成 .d.ts
 - Source Map: 启用
@@ -19,8 +19,8 @@
 
 ```
 dist/
-├── index.js
-├── index.js.map
-├── index.d.ts
-└── index.d.ts.map
+├── index.mjs
+├── index.mjs.map
+├── index.d.mts
+└── index.d.mts.map
 ```

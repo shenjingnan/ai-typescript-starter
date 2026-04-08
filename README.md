@@ -9,7 +9,7 @@ AI 原生的 TypeScript 启动模板，专为 AI 辅助开发时代打造。
 ## 特性
 
 - **现代技术栈**: TypeScript 5.x + Node.js 24+ + pnpm
-- **构建工具**: tsup - 快速、零配置的 TypeScript 打包器
+- **构建工具**: tsdown - 基于 rolldown 的 TypeScript 打包器
 - **测试框架**: Vitest - Vite 原生测试框架
 - **代码质量**: Biome (Lint + Format) + cspell (拼写检查)
 - **Git 工作流**: Husky + lint-staged + release-it
