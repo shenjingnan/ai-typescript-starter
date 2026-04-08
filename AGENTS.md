@@ -13,7 +13,7 @@
 | TypeScript | 5.x | 编程语言 |
 | Node.js | 24+ | 运行时 |
 | pnpm | 10.x | 包管理器 |
-| tsup | 8.x | 构建工具 |
+| tsdown | 0.x | 构建工具 |
 | Vitest | 2.x | 测试框架 |
 | Biome | 1.x | Linter + Formatter |
 | cspell | 8.x | 拼写检查 |

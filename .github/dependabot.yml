@@ -22,7 +22,7 @@ updates:
           - '@vitest/*'
           - 'vitest'
           - 'typescript'
-          - 'tsup'
+          - 'tsdown'
           - 'tsx'
         update-types:
           - 'minor'
