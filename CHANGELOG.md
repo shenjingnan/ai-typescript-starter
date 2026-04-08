@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.1](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.0...v0.4.1) (2026-04-08)
+
+### Documentation
+
+* 清理项目中残留的 tsup 引用，统一替换为 tsdown ([#39](https://github.com/shenjingnan/ai-typescript-starter/issues/39)) ([c101462](https://github.com/shenjingnan/ai-typescript-starter/commit/c10146296ebc60f85ba41560dcac89271f4aeef5))
+
 ## [0.4.0](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.3.0...v0.4.0) (2026-04-08)
 
 ### Features
