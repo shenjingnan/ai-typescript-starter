@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.4.0](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.3.0...v0.4.0) (2026-04-08)
+
+### Features
+
+* 导出编译时版本号常量 VERSION ([#28](https://github.com/shenjingnan/ai-typescript-starter/issues/28)) ([341f72a](https://github.com/shenjingnan/ai-typescript-starter/commit/341f72ac36e99efeb81f96f8f8bd405ef599bcc6))
+* 添加 update-readme skill ([#31](https://github.com/shenjingnan/ai-typescript-starter/issues/31)) ([ec59d8c](https://github.com/shenjingnan/ai-typescript-starter/commit/ec59d8c69b11d0e88cf37c37136e361f726af8b6))
+* 添加安全审计技能 fix-audit ([#30](https://github.com/shenjingnan/ai-typescript-starter/issues/30)) ([0212b9f](https://github.com/shenjingnan/ai-typescript-starter/commit/0212b9fbb162947e49ed12b5124ee18eb9bda3a3))
+
+### Bug Fixes
+
+* **deps:** 修复 9 个间接依赖安全漏洞 ([#29](https://github.com/shenjingnan/ai-typescript-starter/issues/29)) ([396c814](https://github.com/shenjingnan/ai-typescript-starter/commit/396c814faa6749326b3aa21c2efc03d48498c265))
+* **deps:** 修复安全审计漏洞，升级 vitest 2.x → 3.x ([#38](https://github.com/shenjingnan/ai-typescript-starter/issues/38)) ([931082b](https://github.com/shenjingnan/ai-typescript-starter/commit/931082b0e4f378a7ef1490303b39c67a5e52bf3b))
+
+### Code Refactoring
+
+* dev 脚本改用 tsdown --watch 替代 tsx watch ([#36](https://github.com/shenjingnan/ai-typescript-starter/issues/36)) ([26a41bc](https://github.com/shenjingnan/ai-typescript-starter/commit/26a41bcbb5bce37a7d0eed263f58dccb857c212b))
+* 迁移构建工具 tsup → tsdown ([#35](https://github.com/shenjingnan/ai-typescript-starter/issues/35)) ([97140ce](https://github.com/shenjingnan/ai-typescript-starter/commit/97140ce1ecc9e520a9ac1821463458c8b341bf32))
+
+### Documentation
+
+* 添加 spellcheck 和 typecheck 命令 ([#37](https://github.com/shenjingnan/ai-typescript-starter/issues/37)) ([efd04e2](https://github.com/shenjingnan/ai-typescript-starter/commit/efd04e2a788e8b71924eedbe65e5967269ea1175))
+* 添加中文优先规则到关键规则 ([#32](https://github.com/shenjingnan/ai-typescript-starter/issues/32)) ([00d4aa4](https://github.com/shenjingnan/ai-typescript-starter/commit/00d4aa4ecc9420029123c15a3f6b2c5804c15bad))
+
 ## [0.3.0](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.3.0-beta.1...v0.3.0) (2026-04-03)
 
 ## [0.3.0-beta.1](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.3.0-beta.0...v0.3.0-beta.1) (2026-04-03)
