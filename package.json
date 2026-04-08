@@ -3,12 +3,12 @@
   "version": "0.3.0",
   "description": "AI 原生的 TypeScript 启动模板，专为 AI 辅助开发时代打造",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.mts"
     }
   },
   "files": [
@@ -19,7 +19,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown",
     "dev": "tsx watch src/index.ts",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -51,7 +51,7 @@
     "template",
     "vitest",
     "biome",
-    "tsup"
+    "tsdown"
   ],
   "license": "MIT",
   "repository": {
@@ -71,7 +71,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "release-it": "^19.2.4",
-    "tsup": "^8.3.5",
+    "tsdown": "^0.21.7",
     "tsx": "^4.19.2",
     "typescript": "^6.0.2",
     "vitest": "^2.1.8"
@@ -79,8 +79,7 @@
   "pnpm": {
     "overrides": {
       "undici": ">=6.24.0",
-      "lodash": ">=4.18.0",
-      "esbuild": ">=0.25.0"
+      "lodash": ">=4.18.0"
     }
   }
 }
