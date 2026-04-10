@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.3](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.2...v0.4.3) (2026-04-10)
+
+### Bug Fixes
+
+* **commands:** 修复 increase-coverage 命令的 git diff 用法 ([#44](https://github.com/shenjingnan/ai-typescript-starter/issues/44)) ([f9d8088](https://github.com/shenjingnan/ai-typescript-starter/commit/f9d8088408252c5621111cdf060bf15c3353f09a))
+
 ## [0.4.2](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.1...v0.4.2) (2026-04-10)
 
 ### Documentation
