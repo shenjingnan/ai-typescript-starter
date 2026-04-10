@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.2](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.1...v0.4.2) (2026-04-10)
+
+### Documentation
+
+* **skill:** 简化 update-readme skill 注意事项 ([#41](https://github.com/shenjingnan/ai-typescript-starter/issues/41)) ([5a4152b](https://github.com/shenjingnan/ai-typescript-starter/commit/5a4152bfc53af72ae04088ddba347014093fdb4c))
+* 同步 README.md 与项目实际状态 ([#42](https://github.com/shenjingnan/ai-typescript-starter/issues/42)) ([02bcccd](https://github.com/shenjingnan/ai-typescript-starter/commit/02bcccd92c686587bae616c96a37fec5dd37125c))
+
 ## [0.4.1](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.0...v0.4.1) (2026-04-08)
 
 ### Documentation
