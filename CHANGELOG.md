@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.4](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.3...v0.4.4) (2026-04-14)
+
+### Bug Fixes
+
+* **security:** 修复 basic-ftp 高危漏洞并更新 Biome schema ([#47](https://github.com/shenjingnan/ai-typescript-starter/issues/47)) ([59186c0](https://github.com/shenjingnan/ai-typescript-starter/commit/59186c05485bb5e745debe12ed35dd0b3d0985b4))
+
 ## [0.4.3](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.2...v0.4.3) (2026-04-10)
 
 ### Bug Fixes
