@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.5](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.4...v0.4.5) (2026-04-14)
+
+### Bug Fixes
+
+* **commands:** 修复 fix-audit 命令中 pnpm audit 非零退出码问题 ([#48](https://github.com/shenjingnan/ai-typescript-starter/issues/48)) ([f70cd15](https://github.com/shenjingnan/ai-typescript-starter/commit/f70cd15bd99170652614d6a1b9a6a524b89df105))
+
 ## [0.4.4](https://github.com/shenjingnan/ai-typescript-starter/compare/v0.4.3...v0.4.4) (2026-04-14)
 
 ### Bug Fixes
