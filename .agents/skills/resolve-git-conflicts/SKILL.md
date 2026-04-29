@@ -1,6 +1,6 @@
 ---
 name: resolve-git-conflicts
-description: Use when Git merge or rebase results in merge conflicts that need resolution, detected via `git status` showing unmerged files or conflict markers in code
+description: 当 Git 合并或变基产生合并冲突需要解决时使用，通过 `git status` 显示未合并文件或代码中的冲突标记检测到
 ---
 
 # Resolve Git Conflicts
